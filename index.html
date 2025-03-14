@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unsplash API Image Fetcher</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <h1>Image Fetcher Unsplash API</h1>
+    <input type="text" id="searchQuery" placeholder="Enter search keyword...">
+    <button onclick="fetchImagesXHR()">Fetch with XHR</button>
+    <button onclick="fetchImagesPromise()">Fetch with Promise</button>
+    <button onclick="fetchImagesAsync()">Fetch with Async/Await</button>
+    <div id="image-container"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
